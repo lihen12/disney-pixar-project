@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 100%;
+}
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 50%;
+}
+.container2 {
+  float: right;
+}
+section, article {
+  display: flex;
+}
+
+article {
+  flex-direction: column;
+  width: 20rem;
+  padding: 0;
+}
+
+.movie + div {
+  flex-grow: 1;
+}
+
+div:first-child,div:last-child {
+  flex-grow: .5;
+}
+
+.movie {
+  padding-left: 2rem;
+}
+
+.movie-top {
+  border-bottom: 1px solid #aaa;
+}
+
+.movie-top + div {
+  border-right: 1px solid #aaa;
+  min-height: 3rem;
+}
+
+.movie-bottom {
+  border-top: 1px solid #aaa;
+}

@@ -6,111 +6,421 @@
     <title>Herny's Disney-Pixar Bracket</title>
     <meta charset="UTF-8">
     
+    <link rel="stylesheet" type="text/css" href="styles/reset.css">
+    <link rel="stylesheet" type="text/css" href="styles/index.css">
   </head>
   
   <body>
   <!-- First section of bracket: Gold/Silver Era -->
-    <section class="gold-silver">
+    <section class="gold-silver container">
       <!-- Each section is divided into 8 groups of 2 movies indicated by article tag -->
-      <article class="group1">
-        <div>
-          <label>Snow White
-            <input type="radio" name="movie1" checked="checked" value="snow-white">
-          </label>
-          
-          <label>Saludas Amigos
-            <input type="radio" name="movie1" value="saludas-amigos">
-          </label>
+      <!-- **********************************ROUND 1********************************* -->
+      <article class="first-round">
+        <div>&nbsp;</div>
+        
+        <div class="movie movie-top">
+          <input type="radio" name="r1-movie1" checked="checked" value="snow-white">
+          <label for="movie-name">Snow White</label>
         </div>
-      </article>
-      
-      <article class="group2">
-        <div>
-          <label>Peter Pan
-            <input type="radio" name="movie2" checked="checked" value="peter-pan">
-          </label>
-          
-          <label>The Jungle Book
-            <input type="radio" name="movie2" value="jungle-book">
-          </label>
+        <div>&nbsp;</div>
+        <div class="movie movie-bottom">
+          <input type="radio" name="r1-movie1" value="saludas-amigos">
+          <label for="movie-name">Saludas Amigos</label>
         </div>
-      </article>
-      
-      <article class="group3">
-        <div>
-          <label>Bambi
-            <input type="radio" name="movie3" checked="checked" value="bambi">
-          </label>
-          
-          <label>The Sword in the Stone
-            <input type="radio" name="movie3" value="sword-in-stone">
-          </label>
-        </div>
-      </article>
-      
-      <article class="group4">
-        <div>
-          <label>Pinocchio
-            <input type="radio" name="movie4" checked="checked" value="pinocchio">
-          </label>
-          
-          <label>Dumbo
-            <input type="radio" name="movie4" value="dumbo">
-          </label>
-        </div>
-      </article>
-      
-      <article class="group5">
-        <div>
-          <label>Cinderella
-            <input type="radio" name="movie5" checked="checked" value="cinderella">
-          </label>
-          
-          <label>The Three Caballeros
-            <input type="radio" name="movie5" value="three-caballeros">
-          </label>
-        </div>
-      </article>
-      
-      <article class="group6">
-        <div>
-          <label>101 Dalmatians
-            <input type="radio" name="movie6" checked="checked" value="101-dalmatians">
-          </label>
-          
-          <label>Lady and the Tramp
-            <input type="radio" name="movie6" value="lady-tramp">
-          </label>
-        </div>
-      </article>
-      
-      <article class="group7">
-        <div>
-            <label>Sleeping Beauty
-              <input type="radio" name="movie7" checked="checked" value="sleeping-beauty">
-            </label>
 
-            <label>The Adventures of Ichabod and Mr. Toad
-              <input type="radio" name="movie7" value="ichabod-toad">
-            </label>
+        <div>&nbsp;</div>
+
+        <div class="movie movie-top">
+          <input type="radio" name="r1-movie2" checked="checked" value="peter-pan">
+          <label for="movie-name">Peter Pan</label>
         </div>
+        <div>&nbsp;</div>
+        <div class="movie movie-bottom">
+          <input type="radio" name="r1-movie2" value="jungle-book">
+          <label for="movie-name">The Jungle Book</label>
+        </div>
+
+        <div>&nbsp;</div>
+
+        <div class="movie movie-top">
+          <input type="radio" name="r1-movie3" checked="checked" value="bambi">
+          <label for="movie-name">Bambi</label>
+        </div>
+        <div>&nbsp;</div>
+        <div class="movie movie-bottom">
+          <input type="radio" name="r1-movie3" value="sword-in-stone">
+          <label for="movie-name">The Sword in the Stone</label>
+        </div>
+
+        <div>&nbsp;</div>
+
+        <div class="movie movie-top">
+          <input type="radio" name="r1-movie4" checked="checked" value="pinocchio">
+          <label for="movie-name">Pinocchio</label>
+        </div>
+        <div>&nbsp;</div>
+        <div class="movie movie-bottom">
+          <input type="radio" name="r1-movie4" value="dumbo">
+          <label for="movie-name">Dumbo</label>
+        </div>
+
+        <div>&nbsp;</div>
+
+        <div class="movie movie-top">
+          <input type="radio" name="r1-movie5" checked="checked" value="cinderella">
+          <label for="movie-name">Cinderella</label>
+        </div>
+        <div>&nbsp;</div>
+        <div class="movie movie-bottom">
+          <input type="radio" name="r1-movie5" value="three-caballeros">
+          <label for="movie-name">The Three Caballeros</label>
+        </div>
+
+        <div>&nbsp;</div>
+
+        <div class="movie movie-top">
+          <input type="radio" name="r1-movie6" checked="checked" value="101-dalmatians">
+          <label for="movie-name">101 Dalmatians</label>
+        </div>
+        <div>&nbsp;</div>
+        <div class="movie movie-bottom">
+          <input type="radio" name="r1-movie6" value="lady-tramp">
+          <label for="movie-name">Lady and the Tramp</label>
+        </div>
+
+        <div>&nbsp;</div>
+
+        <div class="movie movie-top">
+          <input type="radio" name="r1-movie7" checked="checked" value="sleeping-beauty">
+          <label for="movie-name">Sleeping Beauty</label>
+        </div>
+        <div>&nbsp;</div>
+        <div class="movie movie-bottom">
+          <input type="radio" name="r1-movie7" value="ichabod-toad">
+          <label for="movie-name">The Adventures of Ichabod and Mr. Toad
+          </label>
+        </div>
+
+        <div>&nbsp;</div>
+
+        <div class="movie movie-top">
+          <input type="radio" name="r1-movie8" checked="checked" value="fantasia">
+          <label for="movie-name">Fantasia</label>
+        </div>
+        <div>&nbsp;</div>
+        <div class="movie movie-bottom">
+          <input type="radio" name="r1-movie8" value="alice-wonderland">
+          <label for="movie-name">Alice in Wonderland</label>
+        </div>
+        
+        <div>&nbsp;</div>
       </article>
       
-      <article class="group8">
-        <div>
-            <label>Fantasia
-              <input type="radio" name="movie8" checked="checked" value="fantasia">
-            </label>
-
-            <label>Alice in Wonderland
-              <input type="radio" name="movie8" value="alice-wonderland">
-            </label>
+      <!-- **********************************ROUND 2********************************* -->
+      <article class="second-round">
+        <div>&nbsp;</div>
+        
+        <div class="movie movie-top">
+          <input type="radio" name="r2-movie1" checked="checked" value="snow-white">
+          <label for="movie-name">Snow White</label>
         </div>
+        <div>&nbsp;</div>
+        <div class="movie movie-bottom">
+          <input type="radio" name="r2-movie1" checked="checked" value="snow-white">
+          <label for="movie-name">Snow White</label>
+        </div>
+
+        <div>&nbsp;</div>
+        
+        <div class="movie movie-top">
+          <input type="radio" name="r2-movie2" checked="checked" value="snow-white">
+          <label for="movie-name">Snow White</label>
+        </div>
+        <div>&nbsp;</div>
+        <div class="movie movie-bottom">
+          <input type="radio" name="r2-movie2" checked="checked" value="snow-white">
+          <label for="movie-name">Snow White</label>
+        </div>
+
+        <div>&nbsp;</div>
+        
+        <div class="movie movie-top">
+          <input type="radio" name="r2-movie3" checked="checked" value="snow-white">
+          <label for="movie-name">Snow White</label>
+        </div>
+        <div>&nbsp;</div>
+        <div class="movie movie-bottom">
+          <input type="radio" name="r2-movie3" checked="checked" value="snow-white">
+          <label for="movie-name">Snow White</label>
+        </div>
+
+        <div>&nbsp;</div>
+        
+        <div class="movie movie-top">
+          <input type="radio" name="r2-movie4" checked="checked" value="snow-white">
+          <label for="movie-name">Snow White</label>
+        </div>
+        <div>&nbsp;</div>
+        <div class="movie movie-bottom">
+          <input type="radio" name="r2-movie4" checked="checked" value="snow-white">
+          <label for="movie-name">Snow White</label>
+        </div>
+        
+        <div>&nbsp;</div>
+      </article>
+      
+      <!-- **********************************ROUND 3********************************* -->
+      <article class="third-round">
+        <div>&nbsp;</div>
+        
+        <div class="movie movie-top">
+          <input type="radio" name="r3-movie1" checked="checked" value="snow-white">
+          <label for="movie-name">Snow White</label>
+        </div>
+        <div>&nbsp;</div>
+        <div class="movie movie-bottom">
+          <input type="radio" name="r3-movie1" checked="checked" value="snow-white">
+          <label for="movie-name">Snow White</label>
+        </div>
+        
+        <div>&nbsp;</div>
+        
+        <div class="movie movie-top">
+          <input type="radio" name="r3-movie2" checked="checked" value="snow-white">
+          <label for="movie-name">Snow White</label>
+        </div>
+        <div>&nbsp;</div>
+        <div class="movie movie-bottom">
+          <input type="radio" name="r3-movie2" checked="checked" value="snow-white">
+          <label for="movie-name">Snow White</label>
+        </div>
+    
+        <div>&nbsp;</div>
+      </article>
+      
+      <!-- **********************************ROUND 4********************************* -->
+      <article class="fourth-round">
+        <div>&nbsp;</div>
+        
+        <div class="movie movie-top">
+          <input type="radio" name="r4-movie1" checked="checked" value="snow-white">
+          <label for="movie-name">Snow White</label>
+        </div>
+        <div>&nbsp;</div>
+        <div class="movie movie-bottom">
+          <input type="radio" name="r4-movie1" checked="checked" value="snow-white">
+          <label for="movie-name">Snow White</label>
+        </div>
+    
+        <div>&nbsp;</div>
       </article>
     </section>
     <!-- End of Section: Gold/Silver Era -->
     
+    <section class="gold-silver container2">
+      <!-- Each section is divided into 8 groups of 2 movies indicated by article tag -->
+      <!-- **********************************ROUND 1********************************* -->
+      <article class="first-round">
+        <div>&nbsp;</div>
+        
+        <div class="movie movie-top">
+          <input type="radio" name="r1-movie1" checked="checked" value="snow-white">
+          <label for="movie-name">Snow White</label>
+        </div>
+        <div>&nbsp;</div>
+        <div class="movie movie-bottom">
+          <input type="radio" name="r1-movie1" value="saludas-amigos">
+          <label for="movie-name">Saludas Amigos</label>
+        </div>
+
+        <div>&nbsp;</div>
+
+        <div class="movie movie-top">
+          <input type="radio" name="r1-movie2" checked="checked" value="peter-pan">
+          <label for="movie-name">Peter Pan</label>
+        </div>
+        <div>&nbsp;</div>
+        <div class="movie movie-bottom">
+          <input type="radio" name="r1-movie2" value="jungle-book">
+          <label for="movie-name">The Jungle Book</label>
+        </div>
+
+        <div>&nbsp;</div>
+
+        <div class="movie movie-top">
+          <input type="radio" name="r1-movie3" checked="checked" value="bambi">
+          <label for="movie-name">Bambi</label>
+        </div>
+        <div>&nbsp;</div>
+        <div class="movie movie-bottom">
+          <input type="radio" name="r1-movie3" value="sword-in-stone">
+          <label for="movie-name">The Sword in the Stone</label>
+        </div>
+
+        <div>&nbsp;</div>
+
+        <div class="movie movie-top">
+          <input type="radio" name="r1-movie4" checked="checked" value="pinocchio">
+          <label for="movie-name">Pinocchio</label>
+        </div>
+        <div>&nbsp;</div>
+        <div class="movie movie-bottom">
+          <input type="radio" name="r1-movie4" value="dumbo">
+          <label for="movie-name">Dumbo</label>
+        </div>
+
+        <div>&nbsp;</div>
+
+        <div class="movie movie-top">
+          <input type="radio" name="r1-movie5" checked="checked" value="cinderella">
+          <label for="movie-name">Cinderella</label>
+        </div>
+        <div>&nbsp;</div>
+        <div class="movie movie-bottom">
+          <input type="radio" name="r1-movie5" value="three-caballeros">
+          <label for="movie-name">The Three Caballeros</label>
+        </div>
+
+        <div>&nbsp;</div>
+
+        <div class="movie movie-top">
+          <input type="radio" name="r1-movie6" checked="checked" value="101-dalmatians">
+          <label for="movie-name">101 Dalmatians</label>
+        </div>
+        <div>&nbsp;</div>
+        <div class="movie movie-bottom">
+          <input type="radio" name="r1-movie6" value="lady-tramp">
+          <label for="movie-name">Lady and the Tramp</label>
+        </div>
+
+        <div>&nbsp;</div>
+
+        <div class="movie movie-top">
+          <input type="radio" name="r1-movie7" checked="checked" value="sleeping-beauty">
+          <label for="movie-name">Sleeping Beauty</label>
+        </div>
+        <div>&nbsp;</div>
+        <div class="movie movie-bottom">
+          <input type="radio" name="r1-movie7" value="ichabod-toad">
+          <label for="movie-name">The Adventures of Ichabod and Mr. Toad
+          </label>
+        </div>
+
+        <div>&nbsp;</div>
+
+        <div class="movie movie-top">
+          <input type="radio" name="r1-movie8" checked="checked" value="fantasia">
+          <label for="movie-name">Fantasia</label>
+        </div>
+        <div>&nbsp;</div>
+        <div class="movie movie-bottom">
+          <input type="radio" name="r1-movie8" value="alice-wonderland">
+          <label for="movie-name">Alice in Wonderland</label>
+        </div>
+        
+        <div>&nbsp;</div>
+      </article>
+      
+      <!-- **********************************ROUND 2********************************* -->
+      <article class="second-round">
+        <div>&nbsp;</div>
+        
+        <div class="movie movie-top">
+          <input type="radio" name="r2-movie1" checked="checked" value="snow-white">
+          <label for="movie-name">Snow White</label>
+        </div>
+        <div>&nbsp;</div>
+        <div class="movie movie-bottom">
+          <input type="radio" name="r2-movie1" checked="checked" value="snow-white">
+          <label for="movie-name">Snow White</label>
+        </div>
+
+        <div>&nbsp;</div>
+        
+        <div class="movie movie-top">
+          <input type="radio" name="r2-movie2" checked="checked" value="snow-white">
+          <label for="movie-name">Snow White</label>
+        </div>
+        <div>&nbsp;</div>
+        <div class="movie movie-bottom">
+          <input type="radio" name="r2-movie2" checked="checked" value="snow-white">
+          <label for="movie-name">Snow White</label>
+        </div>
+
+        <div>&nbsp;</div>
+        
+        <div class="movie movie-top">
+          <input type="radio" name="r2-movie3" checked="checked" value="snow-white">
+          <label for="movie-name">Snow White</label>
+        </div>
+        <div>&nbsp;</div>
+        <div class="movie movie-bottom">
+          <input type="radio" name="r2-movie3" checked="checked" value="snow-white">
+          <label for="movie-name">Snow White</label>
+        </div>
+
+        <div>&nbsp;</div>
+        
+        <div class="movie movie-top">
+          <input type="radio" name="r2-movie4" checked="checked" value="snow-white">
+          <label for="movie-name">Snow White</label>
+        </div>
+        <div>&nbsp;</div>
+        <div class="movie movie-bottom">
+          <input type="radio" name="r2-movie4" checked="checked" value="snow-white">
+          <label for="movie-name">Snow White</label>
+        </div>
+        
+        <div>&nbsp;</div>
+      </article>
+      
+      <!-- **********************************ROUND 3********************************* -->
+      <article class="third-round">
+        <div>&nbsp;</div>
+        
+        <div class="movie movie-top">
+          <input type="radio" name="r3-movie1" checked="checked" value="snow-white">
+          <label for="movie-name">Snow White</label>
+        </div>
+        <div>&nbsp;</div>
+        <div class="movie movie-bottom">
+          <input type="radio" name="r3-movie1" checked="checked" value="snow-white">
+          <label for="movie-name">Snow White</label>
+        </div>
+        
+        <div>&nbsp;</div>
+        
+        <div class="movie movie-top">
+          <input type="radio" name="r3-movie2" checked="checked" value="snow-white">
+          <label for="movie-name">Snow White</label>
+        </div>
+        <div>&nbsp;</div>
+        <div class="movie movie-bottom">
+          <input type="radio" name="r3-movie2" checked="checked" value="snow-white">
+          <label for="movie-name">Snow White</label>
+        </div>
     
+        <div>&nbsp;</div>
+      </article>
+      
+      <!-- **********************************ROUND 4********************************* -->
+      <article class="fourth-round">
+        <div>&nbsp;</div>
+        
+        <div class="movie movie-top">
+          <input type="radio" name="r4-movie1" checked="checked" value="snow-white">
+          <label for="movie-name">Snow White</label>
+        </div>
+        <div>&nbsp;</div>
+        <div class="movie movie-bottom">
+          <input type="radio" name="r4-movie1" checked="checked" value="snow-white">
+          <label for="movie-name">Snow White</label>
+        </div>
+    
+        <div>&nbsp;</div>
+      </article>
+    </section>
+    <!-- End of Section: Gold/Silver Era -->
     
   </body>
 
